@@ -5,8 +5,8 @@
   "main": "build/src/index.js",
   "scripts": {
     "build": "rimraf build && tsc",
-    "dev": "node build/src/index.js",
-    "start": "npm run build && node build/src/index.js",
+    "start": "node build/src/index.js",
+    "dev": "npm run build && node build/src/index.js",
     "test": "ts-node test/test.ts",
     "test:mock": "ts-node test/mock.ts",
     "start:prod": "npm run build && node build/src/index.js",
